@@ -1,0 +1,64 @@
+html {
+  background-color: rgb(243, 233, 255);
+}
+
+.center h1 {
+  color: rgb(88, 49, 191);
+  text-align: center;
+  font-size: 5vw;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* chiều ngang */
+  height: 30%;
+}
+
+.img img {
+  width: 30%; /* chiều ngang */
+  height: 30%; /* chiều cao */
+}
+
+.paragraph {
+  background-color: rgb(119, 74, 216);
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+  padding: 3%;
+  border-radius: 2%;
+  margin-top: 2%;
+  font-size: 1.7vw;
+}
+
+h5.yellow {
+  color: rgb(255, 238, 191);
+  border-left: 4px solid yellow;
+}
+
+.paragraph h5 {
+  padding-left: 2%;
+}
+
+.highlight {
+  background-color: rgb(254, 238, 180);
+  color: black;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+}
+
+.buttondownload {
+  background-color: rgb(246, 202, 40);
+  padding: 10px;
+  margin-top: 2%;
+  border: 2px solid rgb(246, 202, 40);
+  border-radius: 8px;
+}
+
+.footer {
+  text-align: center;
+}
